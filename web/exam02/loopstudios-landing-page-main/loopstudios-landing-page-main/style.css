@@ -1,0 +1,103 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.heroSection {
+    background-color: rgb(0, 0, 0);
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapperNavLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroIMG{
+    padding-right: 250px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    color : white;
+}
+
+.notions {
+    padding  : 0 10px 0 10px;
+}
+
+.heroTextImmersive {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+    color: white ;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-left: 150px;
+    border: 2px solid #ffffff ;
+    padding: 40px 80px 40px 80px;
+    white-space: nowrap;
+}
+
+.interactive{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.interactiveimg{
+    margin-top: 90px;;
+    margin-left: 90px;
+}
+
+.textedroite{
+    justify-content: center;
+    text-align:center;
+    padding : 50px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    background-color: #ffffff;
+    top: 350px;
+    right: 150px;
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+.creation{
+    
+}
+
+.creation{
+    margin-top: 90px;
+
+    padding: 25px 10px 25px 10px; 
+    background-color: black;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.barre{
+    
+    margin-top 3000px;
+    padding: 40px 30px 40px 30px;
+    background-color: black;
+}
